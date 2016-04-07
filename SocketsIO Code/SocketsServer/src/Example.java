@@ -8,7 +8,7 @@ import java.net.URL;
 
 public class Example {
 
-    public static JSONObject getWeather(String state, String city) throws IOException {
+    public static JSONObject getExample(String state, String city) throws IOException {
 
         if (!city.equals("") && !state.equals("")) {
             URL wu = new URL("www.example.com" + state + "/" + city + ".json");
